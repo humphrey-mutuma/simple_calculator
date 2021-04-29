@@ -1,0 +1,7 @@
+.Calculator {
+  text-align: center;
+  width: 80vw;
+  border: 1px solid grey;
+  min-height: 80vh;
+  margin: 10vh 10vw;
+}

@@ -1,0 +1,9 @@
+.Display {
+  width: 100%;
+}
+.Display input{
+  width: 97%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  font-size: 4rem;
+}
