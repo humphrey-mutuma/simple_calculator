@@ -5,7 +5,8 @@ import Keypad from  './Keypad/Keypad';
 const Calculator = () => {
   return (
     <div>
-      
+      <Display />
+      <Keypad />
     </div>
   )
 }
