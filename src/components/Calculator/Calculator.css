@@ -1,0 +1,19 @@
+/* .Calculator {
+  text-align: center;
+  width: 80vw;
+  border: 1px solid grey;
+  min-height: 80vh;
+  margin: 10vh 10vw;
+} */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.Calculator {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 25px;
+}

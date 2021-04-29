@@ -1,0 +1,45 @@
+/* .Button {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.Button table td{
+  width: 20vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  border-collapse: collapse;
+
+}
+.Button table td button{
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+  font-size: 2rem;
+  cursor: pointer;
+} */
+.Button {
+  background: #cad2c5;
+  display: flex;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 20%;
+  min-width: 25%;
+}
+
+.Button[data-size="2"] {
+  height: 40%;
+}
+
+.Button[data-value="null"] {
+  pointer-events: none;
+}
+
+.Button:hover {
+  background: #d7ddd3;
+  cursor: default;
+}
